@@ -23,6 +23,7 @@ requirements:
     - requests
     - six
     - requests-toolbelt
+    - pyjwt
 
 about:
   home: https://github.com/joowani/python-arango
