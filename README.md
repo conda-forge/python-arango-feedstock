@@ -5,11 +5,13 @@ Home: https://github.com/joowani/python-arango
 
 Package license: MIT
 
-Feedstock license: BSD-3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/python-arango-feedstock/blob/master/LICENSE.txt)
 
 Summary: a Python driver for ArangoDB
 
+Development: https://github.com/joowani/python-arango
 
+Documentation: https://python-driver-for-arangodb.readthedocs.io/
 
 Current build status
 ====================
