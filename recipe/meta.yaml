@@ -18,8 +18,11 @@ requirements:
   host:
     - python >=3
     - pip
+    - setuptools_scm >=3.4
   run:
     - python >=3
+    - setuptools >=42
+    - setuptools_scm >=3.4
     - requests
     - six
     - requests-toolbelt
