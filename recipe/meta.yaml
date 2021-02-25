@@ -24,6 +24,7 @@ requirements:
     - setuptools >=42
     - setuptools_scm >=3.4
     - requests
+    - urllib3 >=1.26.0
     - six
     - requests-toolbelt
     - pyjwt
