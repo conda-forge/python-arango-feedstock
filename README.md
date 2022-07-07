@@ -1,15 +1,15 @@
 About python-arango
 ===================
 
-Home: https://github.com/joowani/python-arango
+Home: https://github.com/ArangoDB-Community/python-arango
 
 Package license: MIT
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/python-arango-feedstock/blob/main/LICENSE.txt)
 
-Summary: a Python driver for ArangoDB
+Summary: The official Python driver for ArangoDB
 
-Development: https://github.com/joowani/python-arango
+Development: https://github.com/ArangoDB-Community/python-arango
 
 Documentation: https://python-driver-for-arangodb.readthedocs.io/
 
@@ -147,5 +147,7 @@ In order to produce a uniquely identifiable distribution:
 Feedstock Maintainers
 =====================
 
+* [@aMahanna](https://github.com/aMahanna/)
 * [@carlodri](https://github.com/carlodri/)
+* [@xylar](https://github.com/xylar/)
 
