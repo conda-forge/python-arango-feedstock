@@ -16,28 +16,26 @@ build:
 
 requirements:
   host:
-    - python >=3
+    - python >=3.7
     - pip
-    - setuptools_scm >=3.4
   run:
-    - python >=3
-    - setuptools >=42
-    - setuptools_scm >=3.4
-    - requests
-    - urllib3 >=1.26.0
-    - six
-    - requests-toolbelt
+    - python >=3.7
     - pyjwt
+    - requests
+    - requests-toolbelt
+    - setuptools >=42
 
 about:
-  home: https://github.com/joowani/python-arango
+  home: https://github.com/ArangoDB-Community/python-arango
   license: MIT
   license_family: MIT
   license_file: LICENSE
-  summary: a Python driver for ArangoDB
+  summary: The official Python driver for ArangoDB
   doc_url: https://python-driver-for-arangodb.readthedocs.io/
-  dev_url: https://github.com/joowani/python-arango
+  dev_url: https://github.com/ArangoDB-Community/python-arango
 
 extra:
   recipe-maintainers:
     - carlodri
+    - aMahanna
+    - xylar
