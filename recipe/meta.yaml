@@ -25,6 +25,7 @@ requirements:
     - urllib3 >=1.26.0
     - requests
     - requests-toolbelt
+    - pyjwt
     - setuptools >=42
 
 about:
