@@ -1,11 +1,11 @@
-About python-arango
-===================
+About python-arango-feedstock
+=============================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/python-arango-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/ArangoDB-Community/python-arango
 
 Package license: MIT
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/python-arango-feedstock/blob/main/LICENSE.txt)
 
 Summary: The official Python driver for ArangoDB
 
