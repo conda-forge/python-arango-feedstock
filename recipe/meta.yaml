@@ -27,6 +27,7 @@ requirements:
     - requests-toolbelt
     - pyjwt
     - setuptools >=42
+    - importlib-metadata >=4.7.1
 
 about:
   home: https://github.com/ArangoDB-Community/python-arango
