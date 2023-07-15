@@ -28,6 +28,7 @@ requirements:
     - pyjwt
     - setuptools >=42
     - importlib-metadata >=4.7.1
+    - packaging >=23.1
 
 about:
   home: https://github.com/ArangoDB-Community/python-arango
