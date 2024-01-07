@@ -32,7 +32,7 @@ requirements:
 
 test:
   imports:
-    - python_arango
+    - arango
   commands:
     - pip check
   requires:
