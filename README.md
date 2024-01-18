@@ -7,7 +7,7 @@ Home: https://github.com/ArangoDB-Community/python-arango
 
 Package license: MIT
 
-Summary: The official Python driver for ArangoDB
+Summary: Python Driver for ArangoDB
 
 Development: https://github.com/ArangoDB-Community/python-arango
 
