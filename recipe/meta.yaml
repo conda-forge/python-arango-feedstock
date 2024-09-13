@@ -1,5 +1,5 @@
 {% set name = "python-arango" %}
-{% set version = "8.1.0" %}
+{% set version = "8.1.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name.replace('-', '_') }}-{{ version }}.tar.gz
-  sha256: a4ea671544bfe847402b577e63694ea32d69d2972280e3b48c9bf51ad9d05341
+  sha256: 9496d66798c0be76c2f59792ab2a1cea88ff1266bed6f51505d08d4095941b01
 
 build:
   noarch: python
