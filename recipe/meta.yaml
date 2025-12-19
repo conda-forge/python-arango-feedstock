@@ -21,7 +21,6 @@ requirements:
     - setuptools-scm
     - pip
   run:
-    - requests_toolbelt
     - python >={{ python_min }}
     - urllib3 >=1.26.0
     - requests
