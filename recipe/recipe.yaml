@@ -29,8 +29,6 @@ requirements:
     - requests
     - requests-toolbelt
     - pyjwt
-    - setuptools >=42
-    - importlib-metadata >=4.7.1
     - packaging >=23.1
 
 tests:
