@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: python-arango
-  version: 8.2.5
+  version: "8.2.6"
 
 package:
   name: ${{ name|lower }}
@@ -10,10 +10,10 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/${{ name | replace('-', '_') }}-${{ version }}.tar.gz
-  sha256: 7f1957c9913133d719063d06e7d6d41650604358d167aae5bcd83ad6f847509d
+  sha256: 876bcbec6fe9b89edb43174223cfde9c79fcb8f2a5ecf160ffa0a11e40af0ff3
 
 build:
-  number: 1
+  number: 0
   noarch: python
   script: ${{ PYTHON }} -m pip install . -vv --no-deps --no-build-isolation
 
@@ -29,8 +29,6 @@ requirements:
     - requests
     - requests-toolbelt
     - pyjwt
-    - setuptools >=42
-    - importlib-metadata >=4.7.1
     - packaging >=23.1
 
 tests:
