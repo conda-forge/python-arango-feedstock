@@ -28,13 +28,14 @@ requirements:
     - urllib3 >=1.26.0
     - requests
     - requests-toolbelt
-    - pyjwt
+    - pyjwt >=2.10.0
     - packaging >=23.1
 
 tests:
   - python:
       imports:
         - arango
+      pip_check: true
       python_version: ${{ python_min }}.*
 
 about:
