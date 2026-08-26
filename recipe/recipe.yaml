@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: python-arango
-  version: "8.3.3"
+  version: "8.3.4"
 
 package:
   name: ${{ name|lower }}
@@ -10,7 +10,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/${{ name | replace('-', '_') }}-${{ version }}.tar.gz
-  sha256: 399df2edb2f52d50ec41c9115ac20b46550a4808edf76450d77cdf36efeb0cf2
+  sha256: fc6355d7cbe7997ee035a6742cc1116bffac8dea9f47fbbaac994a715ce024f6
 
 build:
   number: 0
@@ -20,9 +20,10 @@ build:
 requirements:
   host:
     - python ${{ python_min }}.*
-    - setuptools >=42
-    - setuptools-scm
     - pip
+    - setuptools >=42
+    - wheel
+    - setuptools-scm
   run:
     - python >=${{ python_min }}
     - urllib3 >=1.26.0
@@ -36,7 +37,9 @@ tests:
       imports:
         - arango
       pip_check: true
-      python_version: ${{ python_min }}.*
+      python_version:
+        - ${{ python_min }}.*
+        - "*"
 
 about:
   summary: Python Driver for ArangoDB
