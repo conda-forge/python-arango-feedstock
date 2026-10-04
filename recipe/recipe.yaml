@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: python-arango
-  version: "8.3.5"
+  version: "8.3.6"
 
 package:
   name: ${{ name|lower }}
@@ -10,7 +10,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/${{ name | replace('-', '_') }}-${{ version }}.tar.gz
-  sha256: 28934f30c3e1de7419587bbcc0cbcda44684cc8d0f5e8027e85174aa6bedd07f
+  sha256: 9a7c11c91cf73c0abed5b20237dd86cb2eb0e749d242cc598e23b88b8a88133f
 
 build:
   number: 0
